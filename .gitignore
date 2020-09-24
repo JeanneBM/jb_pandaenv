@@ -1,0 +1,16 @@
+# Runtime state and credentials must never be committed.
+/volumes/
+/.local/
+.env
+.env.*
+!.env.example
+**/secret-file
+**/credentials.xml
+**/master.key
+**/hudson.util.Secret
+**/initialAdminPassword
+**/identity.key.enc
+**/secret.key
+*.jks
+*.p12
+*.pfx
